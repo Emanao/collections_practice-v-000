@@ -43,7 +43,12 @@ def kesha_maker(array)
   #i=0
   kesha__maker_array=[]
   array.each_with_index do |c,i|
-    binding.pry
+    puts c
+    puts i
+    puts array[i]
+    when condition
+
+    end
     kesha__maker_array << i==2?"$":c
   end
   kesha__maker_array
