@@ -42,8 +42,8 @@ end
 def kesha_maker(array)
   #i=0
   kesha__maker_array=[]
-  array.each do |i|
-    kesha__maker_array << i==2?"$":array[i]
+  array.each_with_index do |c,i|
+    kesha__maker_array << i==2?"$":c
   end
   kesha__maker_array
 =begin
