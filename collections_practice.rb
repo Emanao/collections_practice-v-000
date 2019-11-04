@@ -20,9 +20,6 @@ def swap_elements_from_to(array, origin_index, destination_index)
     else
       item
     end
-
-    #index==origin_index?array[destination_index]:array[index]
-    #index==destination_index?array[origin_index]:array[index]
   end
 end
 
