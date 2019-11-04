@@ -16,15 +16,15 @@ end
 
 def swap_elements_from_to(array, origin_index, destination_index)
 
-array.each_with_index.collect do |item, index| 
-  if index==origin_index 
+array.each_with_index.collect do |item, index|
+  if index==origin_index
     item=array[destination_index]
   elsif index==destination_index
     item=array[origin_index]
   else
     item
   end
-    
+
   #index==origin_index?array[destination_index]:array[index]
   #index==destination_index?array[origin_index]:array[index]
 end
@@ -42,12 +42,18 @@ end
 def kesha_maker(array)
   i=0
   kesha__maker_array=[]
+  array.each do |i|
+    kesha__maker_array << i==2?"$":array[i]
+  end
+  kesha__maker_array
+=begin
   while i<array.length
     array[i][2]="$"
     kesha__maker_array<<array[i]
     i+=1
   end
   kesha__maker_array
+=end
 end
 def find_a(array)
   array.select{|fruit| fruit[0]=="a"}
