@@ -40,21 +40,12 @@ def reverse_array(array)
   reverse_array
 end
 def kesha_maker(array)
-  #i=0
   kesha__maker_array=[]
   array.each do|str|
     str[2]="$"
     kesha__maker_array<<str
   end
   kesha__maker_array
-=begin
-  while i<array.length
-    array[i][2]="$"
-    kesha__maker_array<<array[i]
-    i+=1
-  end
-  kesha__maker_array
-=end
 end
 def find_a(array)
   array.select{|fruit| fruit[0]=="a"}
