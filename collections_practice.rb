@@ -45,9 +45,6 @@ def kesha_maker(array)
   array.each_with_index do |c,i|
     puts c
     puts i
-    when condition
-
-    end
     kesha__maker_array << i==2?"$":c
   end
   kesha__maker_array
