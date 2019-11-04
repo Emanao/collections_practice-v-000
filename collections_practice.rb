@@ -27,18 +27,8 @@ def swap_elements_from_to(array, origin_index, destination_index)
 end
 
 def reverse_array(array)
-  return array if array.length < 2 
+  return array if array.length < 2
   array.reverse
-
-=begin
-  i=0
-  reverse_array=[]
-  while i<array.length
-    reverse_array.unshift(array[i])
-    i +=1
-  end
-  reverse_array
-=end
 end
 def kesha_maker(array)
   kesha__maker_array=[]
