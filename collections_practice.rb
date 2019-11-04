@@ -27,7 +27,7 @@ def swap_elements_from_to(array, origin_index, destination_index)
 end
 
 def reverse_array(array)
-  array.length < 2? return array
+  array.length<2?return array
   array.reverse
 
 =begin
