@@ -42,10 +42,9 @@ end
 def kesha_maker(array)
   #i=0
   kesha__maker_array=[]
-  array.each_with_index do |c,i|
-    puts c
-    puts i
-    kesha__maker_array << i==2?"$":c
+  array.each do|str|
+    str[2]="$"
+    kesha__maker_array<<str
   end
   kesha__maker_array
 =begin
