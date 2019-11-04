@@ -45,7 +45,6 @@ def kesha_maker(array)
   array.each_with_index do |c,i|
     puts c
     puts i
-    puts array[i]
     when condition
 
     end
