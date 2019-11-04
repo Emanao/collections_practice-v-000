@@ -40,7 +40,7 @@ def reverse_array(array)
   reverse_array
 end
 def kesha_maker(array)
-  i=0
+  #i=0
   kesha__maker_array=[]
   array.each do |i|
     kesha__maker_array << i==2?"$":array[i]
